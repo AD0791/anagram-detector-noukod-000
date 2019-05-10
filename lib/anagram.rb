@@ -7,6 +7,6 @@ class Anagram
   end
   
   def match(tobematch)
-    tobematch.select{|tbm| tbm.split("") == word.split("").sort}
+    tobematch.select{|tbm| tbm.split("").sort == word.split("").sort}
   end
 end
